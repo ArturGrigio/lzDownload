@@ -1,0 +1,14 @@
+{
+    "name": "grigio/lz-download",
+    "description": "This composer package will allow you to do a get request to a server, which will parse the request, resize the requested images, and pack them up in a zip. The images are resized via using fork(), so it will utilize all the processor cores (should be a bit faster), and the finally the server will send a response with the link of the files to be downloaded.",
+    "authors": [
+        {
+            "name": "ArturGrigio",
+            "email": "fsastudent@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "intervention/image": "^2.3"
+    }
+}
